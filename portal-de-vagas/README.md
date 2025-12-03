@@ -26,7 +26,7 @@ Um portal web desenvolvido com foco em oportunidades de trabalho freelance. O pr
 ### 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/JuandaSilvaa/portal-de-vagas.git
+git clone https://github.com/KevinProgramador2/PortalVagas
 cd portal-de-vagas
 ```
 
