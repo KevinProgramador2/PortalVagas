@@ -1,0 +1,102 @@
+{
+  "jobs": [
+    {
+      "id": "2",
+      "title": "Engenheiro de Software Backend Freelance",
+      "contractType": "Freelance",
+      "location": "Remoto",
+      "description": "Criação e manutenção de APIs RESTful utilizando Node.js e Python.",
+      "createdAt": "2024-07-18T00:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "title": "UI/UX Designer Freelance",
+      "contractType": "Freelance",
+      "location": "Remoto",
+      "description": "Projetar wireframes, protótipos e interfaces para aplicações web e mobile.",
+      "createdAt": "2024-07-18T00:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "title": "Analista de Dados Freelance",
+      "contractType": "Freelance",
+      "location": "Remoto",
+      "description": "Análise de grandes volumes de dados e criação de dashboards interativos.",
+      "createdAt": "2024-07-18T00:00:00.000Z"
+    },
+    {
+      "id": "132c",
+      "title": "Desenvolvedor",
+      "location": "Presencial",
+      "description": "boa vaga",
+      "contractType": "Freelance",
+      "createdAt": "2024-07-18T00:00:00.000Z"
+    },
+    {
+      "id": "9a18",
+      "title": "dsd",
+      "location": "Presencial",
+      "description": "teste",
+      "contractType": "Freelance",
+      "updatedAt": "2025-07-18T16:25:30.169Z"
+    },
+    {
+      "id": "371a",
+      "title": "Operadores",
+      "location": "Remoto",
+      "description": "teste",
+      "contractType": "Freelance",
+      "createdAt": "2025-07-22T21:42:45.992Z"
+    }
+  ],
+ "curriculum": [
+    {
+      "personalInfo": {
+        "name": "Juan ",
+        "title": "Desenvolvedor de Software",
+        "location": "Rio de Janeiro, BR",
+        "phone": "(71) 99999-9999",
+        "email": "juan@teste.com",
+        "linkedin": "linkedin.com/in/juan",
+        "github": "github.com/JuandaSilvaa"
+      },
+      "summary": "Desenvolvedor de software apaixonado por criar soluções inovadoras e eficientes. Experiência em desenvolvimento web full-stack, com foco em tecnologias modernas como React, Node.js e Python. Habilidades em resolução de problemas, trabalho em equipe e aprendizado contínuo.",
+      "experience": [
+        {
+          "title": "Desenvolvedor Full-Stack",
+          "company": "Empresa A",
+          "period": "Janeiro 2020 - Presente",
+          "description": "Desenvolvimento e manutenção de aplicações web, utilizando React no front-end e Node.js no back-end. Colaboração em projetos ágeis, revisões de código e implementação de novas funcionalidades.",
+          "id": 1753221043894.432
+        },
+        {
+          "title": "Estagiário de Desenvolvimento",
+          "company": "Empresa B",
+          "period": "Junho 2018 - Dezembro 2019",
+          "description": "Auxílio no desenvolvimento de software, testes de unidade e integração. Aprendizado de boas práticas de programação e participação em reuniões de equipe.",
+          "id": 1753221043894.241
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade X",
+          "degree": "Bacharelado em Ciência da Computação",
+          "period": "2016 - 2010",
+          "id": 1753221043894.2866
+        }
+      ],
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Python",
+        "HTML5",
+        "CSS3",
+        "SQL",
+        "Git",
+        "Docker",
+        "Metodologias Ágeis"
+      ],
+      "id": "f9a6"
+    }]
+}

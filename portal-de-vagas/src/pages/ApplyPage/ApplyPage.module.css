@@ -1,0 +1,97 @@
+.applyPage {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.jobInfo {
+  background-color: var(--card-background);
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  border: 1px solid var(--border-color);
+}
+
+.jobTitle {
+  color: var(--primary-color);
+  margin-top: 0;
+}
+
+.applyForm {
+  background-color: var(--card-background);
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.formTitle {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.formGroup {
+  margin-bottom: 1.5rem;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.formGroup input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: var(--primary-color);
+  color: var(--button-text-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.submitButton:hover {
+  background-color: #5a1b9a;
+}
+
+.message {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 2rem;
+}
+
+.successMessage {
+  text-align: center;
+  padding: 3rem;
+  background-color: var(--card-background);
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.successMessage h3 {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+
+.errorInput {
+  border-color: #e53935;
+}
+
+.errorMessage {
+  color: #e53935;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}

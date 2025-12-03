@@ -1,0 +1,94 @@
+.header {
+  background-color: var(--primary-color);
+  color: var(--button-text-color);
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+.logo,
+.nav a {
+  color: var(--button-text-color);
+  text-decoration: none;
+  transition: opacity 0.3s;
+}
+
+.nav {
+  display: flex;
+  gap: 1.5rem;
+  margin-left: 5px;
+  width: 350px;
+}
+
+.authActions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85px;
+}
+
+.authButton {
+  text-decoration: none;
+  color: var(--button-text-color);
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 0px 5px 3px 5px;
+}
+
+.authButtonLogout {
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 3px 5px 3px 5px;
+  color: var(--button-text-color);
+  font-size: medium;
+}
+
+.themeToggle {
+  background: none;
+  border: none;
+  color: var(--button-text-color);
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.themeToggle:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .nav {
+
+    justify-content: center;
+
+  }
+  
+
+  .nav {
+    margin-top: 0.5rem;
+  }
+}

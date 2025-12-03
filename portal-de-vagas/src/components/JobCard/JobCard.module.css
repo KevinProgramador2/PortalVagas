@@ -1,0 +1,95 @@
+.card {
+  background-color: var(--card-background);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: box-shadow 0.3s, transform 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.25rem;
+  color: var(--primary-color);
+}
+
+.details {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+  opacity: 0.8;
+  font-size: 0.9rem;
+}
+
+.detailItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.description {
+  flex-grow: 1; 
+  margin-bottom: 1.5rem;
+}
+
+.applyButton {
+  background-color: var(--primary-color);
+  color: var(--button-text-color);
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-align: center;
+  align-self: flex-start; 
+  transition: background-color 0.3s;
+}
+
+.applyButton:hover {
+  background-color: #5a1b9a; 
+}
+
+.adminActions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.iconButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.editButton {
+  color: #fbc02d; 
+}
+
+.editButton:hover {
+  background-color: rgba(251, 192, 45, 0.1);
+}
+
+.deleteButton {
+  color: #e53935; 
+}
+
+.deleteButton:hover {
+  background-color: rgba(229, 57, 53, 0.1);
+}

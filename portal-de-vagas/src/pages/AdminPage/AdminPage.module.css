@@ -1,0 +1,50 @@
+.adminPage {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.title {
+  margin: 0;
+  color: var(--primary-color);
+}
+
+.createButton {
+  background-color: var(--primary-color);
+  color: var(--button-text-color);
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.createButton:hover {
+  background-color: #5a1b9a;
+}
+
+.jobList {
+  display: grid;
+  grid-template-columns: 1fr; /* Uma coluna para a lista de admin */
+  gap: 1.5rem;
+}
+
+.message {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 3rem;
+}
+
+.error {
+  color: #e53935;
+}
